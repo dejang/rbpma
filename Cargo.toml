@@ -1,0 +1,8 @@
+[package]
+name = "rbpma"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rustfft = "6.4.0"
+symphonia = { version = "0.5.4", features = ["mp3", "isomp4", "all"] }
